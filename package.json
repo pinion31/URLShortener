@@ -1,0 +1,24 @@
+{
+  "name": "urlshortener",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+, "start": "nodemon -w server.js server.js"  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinion31/URLShortener.git"
+  },
+  "author": "Chris Cantu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pinion31/URLShortener/issues"
+  },
+  "homepage": "https://github.com/pinion31/URLShortener#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "nodemon": "^1.11.0"
+  }
+}
