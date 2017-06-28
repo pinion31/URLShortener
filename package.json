@@ -4,8 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-, "start": "nodemon -w server.js server.js"  },
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -w server.js server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pinion31/URLShortener.git"
@@ -19,6 +20,7 @@
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
+    "mongodb": "^2.2.29",
     "nodemon": "^1.11.0"
   }
 }
